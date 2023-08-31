@@ -1,0 +1,121 @@
+[
+    {
+        "foodClass": "FinalFood",
+        "description": "Hummus, commercial",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 432,
+                    "name": "Energy (Atwater Specific Factors)",
+                    "rank": 290,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Carne",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 958,
+                    "name": "Proteína",
+                    "rank": 290,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Arroz",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 350,
+                    "name": "Coisas boas",
+                    "rank": 350,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Feijao",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 505,
+                    "name": "Ferro",
+                    "rank": 100,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Alface",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 1000,
+                    "name": "sei la",
+                    "rank": 290,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Alface",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 203,
+                    "name": "sei la",
+                    "rank": 290,
+                    "unitName": "LALAL"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Carne",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 303,
+                    "name": "Coisa boa",
+                    "rank": 290,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    }
+]

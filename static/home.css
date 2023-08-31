@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea, button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+.titulo{
+    background-color: rgb(194, 194, 194);
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+#form_fundo{
+    background-color: rgb(194, 194, 194);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0 5px;
+}
+
+th{
+    font-weight: 400;
+    padding: 14px 28px;
+    text-align: left;
+    line-height: 20px;
+}
+
+td{
+    padding: 14px 28px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+}

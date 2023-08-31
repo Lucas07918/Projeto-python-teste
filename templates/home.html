@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <h1 class="titulo">Home</h1>
+    <div id="form_fundo">
+        <div id="container">
+            <div>
+                <h1>Cardápio</h1>
+                <h2>Café da Manhã</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Nutriente</th>
+                            <th>Quantidade</th>
+                            <th>Unidade</th>
+                        </tr>
+                    </thead>
+                    {% if comidas %}
+                    {% for c in comidas %}
+                    <tbody>
+                        <tr>
+                            <td>{{c['descricao']}}</td>
+                            <td>Sei la</td>
+                            <td>{{ c['quantidade'] }}</td>
+                            <td>{{ c['calorias'] }}</td>
+                        </tr>
+                    </tbody>
+                    {% endfor %}
+                    {% else %}
+                    <h2>Não existe comidas cadastradas</h2>
+                    {% endif %}
+                </table>
+        </div>
+        </div>
+    </div>
+    <form action="/gerarCafeDaManha" id="login">
+        <button >Gerar</button>
+    </form>
+
+    <div id="form_fundo">
+        <div id="container">
+            <div>
+                <h1>Cardápio</h1>
+                <h2>Almoço</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Nutriente</th>
+                            <th>Quantidade</th>
+                            <th>Unidade</th>
+                        </tr>
+                    </thead>
+                    {% if almoco %}
+                    {% for c in almoco %}
+                    <tbody>
+                        <tr>
+                            <td>{{c['descricao']}}</td>
+                            <td>Sei la</td>
+                            <td>{{ c['quantidade'] }}</td>
+                            <td>{{ c['calorias'] }}</td>
+                        </tr>
+                    </tbody>
+                    {% endfor %}
+                    {% else %}
+                    <h2>Não existe comidas cadastradas</h2>
+                    {% endif %}
+                </table>
+        </div>
+        </div>
+    </div>
+    <form action="/gerarAlmoco" id="login">
+        <button >Gerar</button>
+    </form>
+</body>
+</html>

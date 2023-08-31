@@ -1,0 +1,53 @@
+[
+    {
+        "foodClass": "FinalFood",
+        "description": "Carne",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 958,
+                    "name": "Prote\u00edna",
+                    "rank": 290,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Alface",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 203,
+                    "name": "sei la",
+                    "rank": 290,
+                    "unitName": "LALAL"
+                }
+            }
+        ]
+    },
+    {
+        "foodClass": "FinalFood",
+        "description": "Feijao",
+        "foodNutrients": [
+            {
+                "type": "FoodNutrient",
+                "id": 13338412,
+                "nutrient": {
+                    "id": 2048,
+                    "number": 505,
+                    "name": "Ferro",
+                    "rank": 100,
+                    "unitName": "kcal"
+                }
+            }
+        ]
+    }
+]
